@@ -10,7 +10,7 @@ This data set is originated from the Human Activity Recognition (HAR) captured u
 
 ## Instructions
 
-    1. Execute the script run_analysis. 
+    1. Execute the script "run_analysis.R". 
 	2. The program will download data files from the above mentioned link. Alternatively user may chooses to download the zip file and extract it to "./data" folder.
 	3. The program will clean up the data to produce data file "Tidy_Data.csv" for further analysis. 
 

@@ -1,11 +1,12 @@
 # Description of the data
-The data contains 180 rows (6 activities for each of 30 subjects) and 81 columns (Subject, Activity and the means of 79 measured variables).
+The data contains 180 rows (6 activities for each of 30 subjects) and 81 columns (Subject, Activity and the 79 measured features).
 
-Subjects	2	Subject involved in experiment 1 - 30
-Activity	string	 Standing, Sitting, Laying, Walking, Walking Down, Walking Up
+Subjects, integer with values: 1-30 - Subjects involved in the experiments.
+Activity, string with values:	 "Standing", "Sitting", "Laying", "Walking", "Walking Down", "Walking Up")
 
-The following are measurements involving mean and standard deviation which have been normalized between [-1,1]. In the file "Tidy_Data.csv", only the average of variables (the Activity and Subject) are recorded.
+The following are features involving mean and standard deviation. 
 
+Features, Numeric  [-1,1]:
 * tBodyAcc_mean_X	
 * tBodyAcc_mean_Y	
 * tBodyAcc_mean_Z	
@@ -85,3 +86,5 @@ The following are measurements involving mean and standard deviation which have 
 * fBodyBodyGyroJerkMag_mean	
 * fBodyBodyGyroJerkMag_std	
 * fBodyBodyGyroJerkMag_meanFreq
+
+### In "Tidy_Data.csv", only the average of feature values respective to each Activity and Subject are recorded.
